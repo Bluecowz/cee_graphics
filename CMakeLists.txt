@@ -13,5 +13,5 @@ find_package(GLEW REQUIRED)
 find_package(glfw3 3.3 REQUIRED)
 
 add_executable(build ${SOURCES})
-target_link_libraries(build OpenGL::GL GLUT::GLUT glfw)
+target_link_libraries(build OpenGL::GL GLUT::GLUT glfw GLEW)
 
